@@ -159,3 +159,60 @@ footer h2 {
     margin: 2%;
     font-size: 15px;
 }
+
+@media screen and (max-width: 480px) {
+    
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .apresentacao img {
+        height: 300px;
+    }
+
+    .descricao > h1 {
+        text-align: center;
+    } 
+
+    .descricao > p {
+        text-align: center;
+    }
+
+    .icons img {
+        height: 30px;
+    }
+
+    .descricao {
+        text-align: center;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    .projeto {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .meus-projetos {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .contato {
+        margin-left: 0;
+    }
+
+    footer h2 {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .contato h2, form {
+        margin: 20px;
+    }
+
+}
